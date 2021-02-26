@@ -1,0 +1,20 @@
+.online::before {
+  content: '\2022'; 
+  color: greenyellow;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -0.6em; 
+  font-size: 2em;
+}
+
+.offline::before {
+    content: '\2022'; 
+    color: grey;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -0.6em; 
+    font-size: 2em;
+}
+  

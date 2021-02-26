@@ -1,0 +1,24 @@
+.table, .tableHead, .tableData {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.table {
+    width: 500px;
+}
+
+.tableHeads {
+    background-color: #00bcd5;
+    color:white;
+}
+
+.tableHead {
+    font-weight: normal;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.tableData {
+    text-align: center;
+    padding: 5px;
+}
